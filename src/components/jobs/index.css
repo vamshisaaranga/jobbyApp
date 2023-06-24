@@ -1,0 +1,111 @@
+.jobsContainer {
+  background-color: #000000;
+}
+.profileContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  height: 200px;
+  width: 300px;
+  background-size: cover;
+  margin: 30px;
+  border-radius: 30px;
+}
+.profileImage {
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+  height: 70px;
+}
+.profileName {
+  margin-left: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #6366f1;
+}
+.profileBio {
+  margin-left: 20px;
+  font-size: 16px;
+  color: #64748b;
+}
+.horizontalLine {
+  width: 300px;
+  margin-left: 30px;
+  background-color: red;
+}
+.profileAndFiltersContainer {
+  width: 300px;
+}
+.employmentHeading {
+  font-family: roboto;
+  color: #ffffff;
+  font-size: 18px;
+  margin-left: 30px;
+}
+.noDetailsProfile {
+  height: 200px;
+  width: 300px;
+  background-size: cover;
+  margin: 30px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .searchInputContainerLg {
+    display: none;
+  }
+  .searchInputContainerSm {
+    margin-left: 70px;
+    margin-top: 40px;
+    border: 1px solid #475569;
+    align-self: flex-start;
+    border-radius: 4px;
+    display: flex;
+  }
+}
+.searchInput {
+  height: 30px;
+  width: 400px;
+  border-width: 0px;
+  outline: none;
+  background-color: #000000;
+  color: #ffffff;
+}
+.searchButton {
+  height: 30px;
+  background-color: #272727;
+  border-width: 0px;
+  width: 40px;
+  cursor: pointer;
+}
+@media (min-width: 767px) {
+  .jobsAlignment {
+    display: flex;
+  }
+  .searchInputContainerSm {
+    display: none;
+  }
+  .searchInputContainerLg {
+    margin-left: 70px;
+    display: flex;
+    margin-top: 40px;
+    border: 1px solid #475569;
+    align-self: flex-start;
+    border-radius: 4px;
+    width: 400px;
+  }
+}
+
+.searchIcon {
+  color: #f1f5f9;
+}
+.jobListTitle {
+  font-family: roboto;
+  color: #ffffff;
+}
+.noDetailsJobList {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,11 @@
+.employmentItemHeading {
+  font-family: roboto;
+  color: #ffffff;
+  margin-left: 10px;
+}
+.employmentItemContainer {
+  margin: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}

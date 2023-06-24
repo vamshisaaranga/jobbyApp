@@ -1,0 +1,105 @@
+@media (min-width: 768px) {
+  .homeNavContainer {
+    background-color: #272727;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .homeWebsiteLogo {
+    padding: 20px;
+    list-style-type: none;
+  }
+  .homeJobsContainer {
+    display: flex;
+  }
+  .homePara {
+    font-family: roboto;
+    color: #ffffff;
+    margin-left: 20px;
+    cursor: pointer;
+    list-style-type: none;
+  }
+  .logoutButton {
+    margin-right: 30px;
+    color: #ffffff;
+    background-color: #4f46e5;
+    height: 30px;
+    width: 90px;
+    border-width: 0px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .smNavContainer {
+    display: none;
+  }
+  .descriptionContainer {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+    height: 120vh;
+    background-size: cover;
+  }
+  .homeHeading {
+    font-family: roboto;
+    color: #ffffff;
+    font-size: 50px;
+    margin: 20px;
+  }
+  .container {
+    width: 600px;
+  }
+  .homeDescription {
+    font-family: roboto;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .lgNavContainer {
+    display: none;
+  }
+  .homeNavContainer {
+    background-color: #272727;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .homeWebsiteLogo {
+    height: 60px;
+    padding: 20px;
+  }
+  .navIcon {
+    color: #f1f5f9;
+    font-size: 24px;
+    margin-right: 20px;
+  }
+  .descriptionContainer {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+    height: 120vh;
+    background-size: cover;
+  }
+  .homeHeading {
+    font-family: roboto;
+    color: #ffffff;
+    margin: 20px;
+  }
+  .homeDescription {
+    font-family: roboto;
+    color: #ffffff;
+    margin: 20px;
+  }
+}
+.findJobsButton {
+  font-family: roboto;
+  background-color: #4f46e5;
+  margin: 20px;
+  height: 40px;
+  width: 100px;
+  border-width: 0px;
+  border-radius: 6px;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}

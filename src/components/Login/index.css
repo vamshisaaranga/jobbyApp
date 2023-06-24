@@ -1,0 +1,104 @@
+.pageContainer {
+  background-color: #000000;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .loginCardContainer {
+    background-color: #272727;
+    height: 400px;
+    width: 400px;
+    border-radius: 6px;
+  }
+  .userName {
+    font-family: roboto;
+    color: #ffffff;
+    margin: 20px;
+    margin-left: 30px;
+    font-size: 14px;
+  }
+
+  .websiteLogo {
+    height: 50px;
+    margin: 20px;
+  }
+  .inputElement {
+    margin: 20px;
+    margin-left: 30px;
+    width: 300px;
+    height: 30px;
+    background-color: #272727;
+    outline: none;
+    border-radius: 2px;
+    border: 1px solid #64748b;
+    color: #ffffff;
+    font-family: roboto;
+  }
+  .loginButton {
+    height: 44px;
+    width: 320px;
+    background-color: #6366f1;
+    font-family: roboto;
+    font-weight: bold;
+    border-radius: 6px;
+    border-width: 0px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+}
+.loginButtonContainer {
+  text-align: center;
+}
+.websiteLogoContainer {
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .websiteLogo {
+    height: 30px;
+    margin: 20px;
+  }
+  .loginCardContainer {
+    background-color: #272727;
+    height: 360px;
+    width: 260px;
+    border-radius: 6px;
+  }
+  .userName {
+    font-family: roboto;
+    color: #ffffff;
+    margin: 20px;
+    margin-left: 30px;
+    font-size: 12px;
+  }
+  .inputElement {
+    margin: 20px;
+    margin-left: 30px;
+    width: 200px;
+    height: 30px;
+    background-color: #272727;
+    outline: none;
+    border-radius: 2px;
+    border: 1px solid #64748b;
+    color: #ffffff;
+    font-family: roboto;
+  }
+  .loginButton {
+    height: 38px;
+    width: 200px;
+    background-color: #6366f1;
+    font-family: roboto;
+    font-weight: bold;
+    border-radius: 6px;
+    border-width: 0px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+}
+.errorMessage {
+  font-family: roboto;
+  margin-left: 30px;
+  color: #ff0b37;
+}

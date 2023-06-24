@@ -1,0 +1,116 @@
+@media (min-width: 768px) {
+  .jobListCardContainer {
+    margin-left: 50px;
+    width: 700px;
+    background-color: #202020;
+    margin: 20px;
+    margin-left: 70px;
+    height: 350px;
+    border-radius: 16px;
+    list-style-type: none;
+  }
+
+  .jobListLogo {
+    height: 50px;
+    margin-left: 20px;
+  }
+  .jobListTitle {
+    font-family: roboto;
+    font-size: 20px;
+    align-self: flex-start;
+    text-decoration: none;
+  }
+  .jobListHorizontalLine {
+    width: 96%;
+    margin: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .jobListLogo {
+    height: 30px;
+    margin-left: 20px;
+  }
+  .jobListTitle {
+    font-family: roboto;
+    font-size: 14px;
+    align-self: flex-start;
+  }
+  .jobListCardContainer {
+    background-color: #202020;
+    margin: 10px;
+
+    border-radius: 16px;
+    list-style-type: none;
+    cursor: pointer;
+  }
+  .jobListHorizontalLine {
+    width: 96%;
+    margin: 10px;
+  }
+}
+.companyLogoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.navLink {
+  text-decoration: none;
+}
+.starIcon {
+  color: #fbbf24;
+}
+.titleRatingContainer {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.rating {
+  font-family: roboto;
+  color: #ffffff;
+}
+.ratingContainer {
+  display: flex;
+
+  align-items: center;
+}
+.location-icon {
+  color: #cbd5e1;
+  font-size: 20px;
+}
+.jobsListLocation {
+  color: #cbd5e1;
+  font-family: roboto;
+  font-size: 14px;
+  margin-left: 10px;
+}
+.jobsLocationContainer {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.locationEmploymentContainer {
+  display: flex;
+}
+.jobsListPackage {
+  color: #cbd5e1;
+  font-family: roboto;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.packageContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.descriptionHeading {
+  color: #cbd5e1;
+  font-family: roboto;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.jobDescription {
+  font-family: roboto;
+  color: #ffffff;
+  font-size: 14px;
+  margin: 20px;
+}
